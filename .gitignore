@@ -1,0 +1,21 @@
+
+# Initialize a new Git repository
+git init
+
+# Create a .gitignore file
+echo "node_modules/" >> .gitignore
+echo ".env" >> .gitignore
+
+# Add files to the staging area
+git add .
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Create a new repository on GitHub and get the URL
+
+# Link your local repository to the GitHub repository
+git remote add origin https://github.com/adeelumar-it/nodeapp.git
+
+# Push changes to GitHub
+git push -u origin master
